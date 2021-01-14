@@ -1,0 +1,129 @@
+<?php
+session_start();
+?>
+<div class="pb-5"><?php include_once 'header_and_footer/signedinheader.php'; ?></div> 
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Hotel Template">
+    <meta name="keywords" content="Hotel, unica, creative, html">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Hotel | Template</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Taviraj:300,400,500,600,700,800,900&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800&display=swap" rel="stylesheet">
+
+    <!-- Css Styles -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="css/flaticon.css" type="text/css">
+    <link rel="stylesheet" href="css/linearicons.css" type="text/css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css">
+    <link rel="stylesheet" href="css/jquery-ui.min.css" type="text/css">
+    <link rel="stylesheet" href="css/nice-select.css" type="text/css">
+    <link rel="stylesheet" href="css/magnific-popup.css" type="text/css">
+    <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!--===============================================================================================-->
+	<link rel="icon" type="image/png" href="Login_v1/images/icons/favicon.ico" />
+	<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="Login_v1/vendor/bootstrap/css/bootstrap.min.css">
+	<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="Login_v1/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+	<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="Login_v1/vendor/animate/animate.css">
+	<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="Login_v1/vendor/css-hamburgers/hamburgers.min.css">
+	<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="Login_v1/vendor/select2/select2.min.css">
+	<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="Login_v1/css/util.css">
+	<link rel="stylesheet" type="text/css" href="Login_v1/css/main.css">
+</head>
+
+<body>
+    <!-- Page Preloder -->
+    <div id="preloder">
+        <div class="loader"></div>
+    </div>
+
+    <!-- Header Section Begin -->
+   
+
+
+  
+                            
+                    <div class="d-flex align-items-center justify-content-center pt-5  ">
+                        <div class="check-form">
+                            <h2>Dear Customer,,</h2>
+                            <form action="contact.php">
+                               <span> Thank you for your booking if there is any problem please contact us so we can help you as soon as possible</span> 
+                                <br> 
+                                <br> 
+                                <br> 
+
+                                <button type="submit" >Contact Us <i class="lnr lnr-arrow-right"></i></button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="about-room">
+                <div class="row">
+                    <div class="col-lg-10 offset-lg-1">
+                        <h2>“Customers may forget what you said  but they will never forget how you made themfeel”.</h2>
+                    </div>
+                </div>
+                <div class="about-para">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus libero mauris,
+                                bibendum eget sapien ac, ultrices rhoncus ipsum. Donec nec sapien in urna fermentum
+                                ornare. Morbi vel ultrices leo. Sed eu turpis eu arcu vehicula fringilla ut vitae
+                                orci. Suspendisse maximus malesuada</p>
+                        </div>
+                        <div class="col-lg-6">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi at vulputate est.
+                                Donec tempor felis at nibh eleifend malesuada. Nullam suscipit lobortis aliquam.
+                                Phasellus lobortis ante lorem, vitae scelerisque lacus tempus sed. Phasellus rutrum
+                                magna </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <!-- Room Availability Section End -->
+
+  
+
+  
+    <?php   include_once 'header_and_footer/footer.php';?>
+
+    <!-- Footer Room Pic Section End -->
+
+    <!-- Footer Section Begin -->
+    
+    <!-- Footer Section End -->
+
+    <!-- Js Plugins -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/jquery.nice-select.min.js"></script>
+    <script src="js/jquery.slicknav.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
